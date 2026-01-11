@@ -1,13 +1,18 @@
 {
-  "name": "snk8-portfolio",
+  "name": "art-portfolios-monorepo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev:snk8": "npm run dev --workspace=@portfolios/snk8",
+    "dev:penski": "npm run dev --workspace=@portfolios/penski",
+    "dev:both": "npm run dev:snk8 & npm run dev:penski",
+    "build:snk8": "npm run build --workspace=@portfolios/snk8",
+    "build:penski": "npm run build --workspace=@portfolios/penski",
+    "build:all": "npm run build --workspaces"
   },
   "dependencies": {
     "framer-motion": "^12.25.0",
