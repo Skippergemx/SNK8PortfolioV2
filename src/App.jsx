@@ -257,7 +257,7 @@ export default function App() {
             <motion.div key="about" className="grid lg:grid-cols-2 gap-32 items-center py-48 max-w-7xl mx-auto px-6">
               <div className="relative">
                 <div className={`aspect-[4/5] rounded-[4rem] overflow-hidden border-[12px] shadow-2xl ${isDark ? "border-zinc-800" : "border-white"}`}>
-                   <img src="public\assets\profileimg\Leonardo_Anime_XL_Profile_Picture_Side_Pose_Close_up_shot_A_so_1.jpg" alt="SNK8 Portrait" className="w-full h-full object-cover" />
+                   <img src="public\assets\profileimg\snk8.png" alt="SNK8 Portrait" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="space-y-8">
