@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd apps/snk8-portfolio && npm install && npm run build",
+  "buildCommand": "npm run build --workspace=@portfolios/snk8",
   "outputDirectory": "apps/snk8-portfolio/dist",
   "installCommand": "npm install"
 }
