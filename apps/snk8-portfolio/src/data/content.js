@@ -7,13 +7,6 @@ export const WORKS = [
     description: "A contemplative portrait study exploring vulnerability through soft peachy gradients and bold geometric interruption. The pink square becomes a window into emotional fragility."
   },
   { 
-    id: 2, 
-    title: "Disobey", 
-    type: "Mixed Media", 
-    img: "/assets/artworks/2.png",
-    description: "A powerful statement on rebellion and duality. Half consumed by fiery orange, half lost in shadow—a visual manifesto of resistance against conformity."
-  },
-  { 
     id: 3, 
     title: "Sunset Solitude", 
     type: "Digital Illustration", 
@@ -45,15 +38,6 @@ export const JOURNALS = [
     tag: "Featured Work",
     featuredImage: "/assets/artworks/1.png",
     artworkTitle: "Peach Gaze"
-  },
-  { 
-    id: 2, 
-    date: "2026.01.13", 
-    title: "Disobey: The Fire Within", 
-    excerpt: "A rebellious study in duality—half consumed by flame, half lost in shadow. When orange becomes the color of resistance and defiance against conformity.", 
-    tag: "Featured Work",
-    featuredImage: "/assets/artworks/2.png",
-    artworkTitle: "Disobey"
   },
   { 
     id: 3, 
